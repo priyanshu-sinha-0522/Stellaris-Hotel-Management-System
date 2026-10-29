@@ -1,0 +1,9 @@
+{
+  "name": "stellaris-hotel-management",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Stellaris Hotel Management System with a navy-and-gold UI and MySQL backend",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": { "dotenv": "^16.4.7", "express": "^4.21.2", "mysql2": "^3.14.0" }
+}
